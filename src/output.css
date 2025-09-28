@@ -179,11 +179,20 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
   .relative {
     position: relative;
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
   }
   .my-\[10px\] {
     margin-block: 10px;
@@ -316,6 +325,9 @@
   .rounded-l-\[30px\] {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+  }
+  .rounded-br-\[30px\] {
+    border-bottom-right-radius: 30px;
   }
   .bg-\[\#0080dd\] {
     background-color: #0080dd;
@@ -557,6 +569,16 @@
       width: 60%;
     }
   }
+  .xs\:w-\[100\%\] {
+    @media (width >= 280px) {
+      width: 100%;
+    }
+  }
+  .xs\:w-\[100\] {
+    @media (width >= 280px) {
+      width: 100;
+    }
+  }
   .xs\:w-\[136px\] {
     @media (width >= 280px) {
       width: 136px;
@@ -589,9 +611,24 @@
       align-items: center;
     }
   }
+  .xs\:rounded-br-\[30px\] {
+    @media (width >= 280px) {
+      border-bottom-right-radius: 30px;
+    }
+  }
+  .xs\:p-6 {
+    @media (width >= 280px) {
+      padding: calc(var(--spacing) * 6);
+    }
+  }
   .xs\:p-\[10px\] {
     @media (width >= 280px) {
       padding: 10px;
+    }
+  }
+  .xs\:pt-8 {
+    @media (width >= 280px) {
+      padding-top: calc(var(--spacing) * 8);
     }
   }
   .xs\:text-2xl {
@@ -616,6 +653,21 @@
     @media (width >= 280px) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .xs\:text-\[14px\] {
+    @media (width >= 280px) {
+      font-size: 14px;
+    }
+  }
+  .xs\:text-\[16px\] {
+    @media (width >= 280px) {
+      font-size: 16px;
+    }
+  }
+  .xs\:text-\[25px\] {
+    @media (width >= 280px) {
+      font-size: 25px;
     }
   }
   .xs\:text-\[30px\] {
@@ -752,6 +804,21 @@
       display: flex;
     }
   }
+  .sm\:h-\[60\%\] {
+    @media (width >= 40rem) {
+      height: 60%;
+    }
+  }
+  .sm\:h-full {
+    @media (width >= 40rem) {
+      height: 100%;
+    }
+  }
+  .sm\:w-\[60\%\] {
+    @media (width >= 40rem) {
+      width: 60%;
+    }
+  }
   .sm\:w-\[70\%\] {
     @media (width >= 40rem) {
       width: 70%;
@@ -760,6 +827,21 @@
   .sm\:items-start {
     @media (width >= 40rem) {
       align-items: flex-start;
+    }
+  }
+  .sm\:rounded-br-\[0px\] {
+    @media (width >= 40rem) {
+      border-bottom-right-radius: 0px;
+    }
+  }
+  .sm\:rounded-br-\[30px\] {
+    @media (width >= 40rem) {
+      border-bottom-right-radius: 30px;
+    }
+  }
+  .sm\:p-12 {
+    @media (width >= 40rem) {
+      padding: calc(var(--spacing) * 12);
     }
   }
   .sm\:text-\[20px\] {
