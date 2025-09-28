@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+* {
+  font-family: "Inter", sans-serif;
+}
+.mycontainer {
+  max-width: 1260px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+@theme {
+  --breakpoint-xs: 280px;
+  --breakpoint-xr: 450px;
+  --breakpoint-xe: 550px;
+  --breakpoint-lm: 1200px;
+}
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.title2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 15px 50px 15px 50px;
+  background: #0093dd;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+.myflex {
+  display: flex;
+}
