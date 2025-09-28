@@ -631,6 +631,16 @@
       padding-top: calc(var(--spacing) * 8);
     }
   }
+  .xs\:pt-10 {
+    @media (width >= 280px) {
+      padding-top: calc(var(--spacing) * 10);
+    }
+  }
+  .xs\:pt-12 {
+    @media (width >= 280px) {
+      padding-top: calc(var(--spacing) * 12);
+    }
+  }
   .xs\:text-2xl {
     @media (width >= 280px) {
       font-size: var(--text-2xl);
