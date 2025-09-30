@@ -22,7 +22,7 @@
   });
 
    AOS.init({
-    duration: 500, 
+    duration: 1000, 
     once: true,   
       offset: 0,   
   });

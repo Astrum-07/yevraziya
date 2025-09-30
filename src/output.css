@@ -8,6 +8,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-green-400: oklch(79.2% 0.209 151.711);
     --color-blue-300: oklch(80.9% 0.105 251.813);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
@@ -469,11 +470,23 @@
   .bg-\[\#fff\] {
     background-color: #fff;
   }
+  .bg-\[linear-gradient\(to_right\,rgba\(235\,229\,229\)\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\.png\'\)\] {
+    background-color: linear-gradient(to right,rgba(235,229,229)) 0%,rgba(0,0,139,0),url('/img/otelshow.png');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(235\,229\,229\)27\%\,94\%\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\.png\'\)\] {
+    background-color: linear-gradient(to right,rgba(235,229,229)27%,94%) 0%,rgba(0,0,139,0),url('/img/otelshow.png');
+  }
+  .bg-\[red\] {
+    background-color: red;
+  }
   .bg-blue-300 {
     background-color: var(--color-blue-300);
   }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
+  }
+  .bg-green-400 {
+    background-color: var(--color-green-400);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -493,17 +506,41 @@
   .bg-\[linear-gradient\(to_bottom\,rgba\(128\,148\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/ochki\.png\'\)\] {
     background-image: linear-gradient(to bottom,rgba(128,148,156) 0%,rgba(0,0,139,0) 50%),url('/img/ochki.png');
   }
+  .bg-\[linear-gradient\(to_right\,rgba\(\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\'\)\] {
+    background-image: linear-gradient(to right,rgba() 0%,rgba(0,0,139,0) 50%),url('/img/otelshow');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\.png\'\)\] {
+    background-image: linear-gradient(to right,rgba() 0%,rgba(0,0,139,0) 50%),url('/img/otelshow.png');
+  }
   .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,16\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/tyubingshow\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(48,98,16) 0%,rgba(0,0,139,0) 50%),url('/img/tyubingshow.png');
   }
   .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,126\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/tyubingshow\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(48,98,126) 0%,rgba(0,0,139,0) 50%),url('/img/tyubingshow.png');
   }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/');
+  }
   .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/\'\)\] {
     background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/');
   }
   .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/img\/tyubingshow\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/img/tyubingshow.png');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/ote\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/ote');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otel\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/otel');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/otelshow');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\.png\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/otelshow.png');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/oter\'\)\] {
+    background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/oter');
   }
   .bg-\[linear-gradient\(to_right\,rgba\(48\,98\,156\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/showcasebg\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(48,98,156) 0%,rgba(0,0,139,0) 50%),url('/img/showcasebg.png');
@@ -514,8 +551,17 @@
   .bg-\[linear-gradient\(to_right\,rgba\(48\,138\,126\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/tyubingshow\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(48,138,126) 0%,rgba(0,0,139,0) 50%),url('/img/tyubingshow.png');
   }
+  .bg-\[linear-gradient\(to_right\,rgba\(128\,138\,126\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\'\)\] {
+    background-image: linear-gradient(to right,rgba(128,138,126) 0%,rgba(0,0,139,0) 50%),url('/img/otelshow');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(128\,138\,126\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\.png\'\)\] {
+    background-image: linear-gradient(to right,rgba(128,138,126) 0%,rgba(0,0,139,0) 50%),url('/img/otelshow.png');
+  }
   .bg-\[linear-gradient\(to_right\,rgba\(128\,138\,126\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/tyubingshow\.png\'\)\] {
     background-image: linear-gradient(to right,rgba(128,138,126) 0%,rgba(0,0,139,0) 50%),url('/img/tyubingshow.png');
+  }
+  .bg-\[linear-gradient\(to_right\,rgba\(235\,229\,229\)_0\%\,rgba\(0\,0\,139\,0\)_50\%\)\,url\(\'\/img\/otelshow\'\)\] {
+    background-image: linear-gradient(to right,rgba(235,229,229) 0%,rgba(0,0,139,0) 50%),url('/img/otelshow');
   }
   .bg-\[radial-gradient\(83\.85\%_100\%_at_49\.64\%_0\%\,\#54b7e7_0\%\,\#0093dd_100\%\)\,linear-gradient\(180deg\,rgba\(255\,255\,255\,0\.3\)_0\%\,rgba\(255\,255\,255\,0\.3\)_100\%\)\] {
     background-image: radial-gradient(83.85% 100% at 49.64% 0%,#54b7e7 0%,#0093dd 100%),linear-gradient(180deg,rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%);
@@ -1055,6 +1101,11 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .xs\:text-\[2px\] {
+    @media (width >= 280px) {
+      font-size: 2px;
+    }
+  }
   .xs\:text-\[8px\] {
     @media (width >= 280px) {
       font-size: 8px;
@@ -1078,6 +1129,11 @@
   .xs\:text-\[14px\] {
     @media (width >= 280px) {
       font-size: 14px;
+    }
+  }
+  .xs\:text-\[20px\] {
+    @media (width >= 280px) {
+      font-size: 20px;
     }
   }
   .xs\:text-\[24px\] {
