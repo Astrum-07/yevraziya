@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Евразия</title>
+    <title>Евразия.ru</title>
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="shortcut icon" href="./img/minilogo.png" type="image/x-icon" />
     <link
@@ -34,10 +34,14 @@
             >
               <a href="#">Схема проезда</a>
               <div class="myflex gap-1.5">
-                <a href="tel:+79227288288"
+                <a
+                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
+                  href="tel:+79227288288"
                   ><i class="fa-solid fa-phone"></i>+79227288288</a
                 >
-                <a href="tel:+73513790979"
+                <a
+                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
+                  href="tel:+73513790979"
                   ><i class="fa-solid fa-phone"></i>+73513790979</a
                 >
               </div>
@@ -45,26 +49,81 @@
 
             <nav class="rb">
               <ul
+                id="menu"
                 class="font-normal text-lg text-black myflex gap-11 overflow-x-auto snap-x snap-mandatory"
               >
                 <li>
-                  <a class="whitespace-nowrap snap-start" href="#">Курорт</a>
+                  <a
+                    class="whitespace-nowrap snap-start hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Курорт</a
+                  >
                 </li>
-                <li><a class="whitespace-nowrap" href="#">Проживание</a></li>
                 <li>
-                  <a class="whitespace-nowrap" href="#">Услуги и тарифы</a>
+                  <a
+                    class="whitespace-nowrap hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Проживание</a
+                  >
                 </li>
-                <li><a class="whitespace-nowrap" href="#">Афиша</a></li>
-                <li><a class="whitespace-nowrap" href="#">Для бизнеса</a></li>
-                <li><a class="whitespace-nowrap" href="#">Купить онлайн</a></li>
+                <li>
+                  <a
+                    class="whitespace-nowrap hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Услуги и тарифы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="whitespace-nowrap hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Афиша</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="whitespace-nowrap hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Для бизнеса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="whitespace-nowrap hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Купить онлайн</a
+                  >
+                </li>
               </ul>
             </nav>
           </nav>
 
           <div
-            class="shadow-[0_20px_20px_-10px_rgba(0,147,221,0.3),inset_0_-10px_10px_0_rgba(255,255,255,0.3)] bg-[radial-gradient(83.85%_100%_at_49.64%_0%,#54b7e7_0%,#0093dd_100%),linear-gradient(180deg,rgba(255,255,255,0.3)_0%,rgba(255,255,255,0.3)_100%)] xr:p-[15px] xs:p-[10px] text-white xr:text-2xl xs:text-xl rounded-[50%] xe:hidden xs:block"
+            id="menuBtn"
+            class="shadow-[0_20px_20px_-10px_rgba(0,147,221,0.3),inset_0_-10px_10px_0_rgba(255,255,255,0.3)] bg-[radial-gradient(83.85%_100%_at_49.64%_0%,#54b7e7_0%,#0093dd_100%),linear-gradient(180deg,rgba(255,255,255,0.3)_0%,rgba(255,255,255,0.3)_100%)] py-[10px] px-[12px] text-white text-xl rounded-[50%] xe:hidden cursor-pointer"
           >
-            <i class="fa-solid fa-bars"></i>
+            <i id="menuIcon" class="fa-solid fa-bars"></i>
+          </div>
+          <div
+            id="mobileMenu"
+            class="max-h-0 overflow-hidden opacity-0 transition-all duration-500 ease-in-out md:hidden flex flex-col gap-4 absolute top-full left-0 w-full bg-white shadow-lg p-5 text-black z-50"
+          >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Курорт</a>
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Проживание</a>
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Услуги и тарифы</a>
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Афиша</a>
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Для бизнеса</a>
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Купить онлайн</a>
+               <a
+                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
+                  href="tel:+79227288288"
+                  ><i class="fa-solid fa-phone"></i>+79227288288</a
+                >
+                <a
+                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
+                  href="tel:+73513790979"
+                  ><i class="fa-solid fa-phone"></i>+73513790979</a
+                >
           </div>
         </nav>
       </div>
@@ -387,17 +446,17 @@
       <div class="mycontainer">
         <div class="icons flex justify-center gap-3">
           <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px] hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
           >
             <a href="#"><img src="./img/vk_icon.png" alt="" /></a>
           </button>
           <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]  hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
           >
             <a href="#"><img src="./img/youtube_icon.png" alt="" /></a>
           </button>
           <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]  hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
           >
             <a href="#"><img src="./img/zen_icon.png" alt="" /></a>
           </button>
@@ -410,26 +469,40 @@
     <footer class="bg-[#d9d9d9]">
       <div class="mycontainer">
         <div class="p py-[20px]">
-         <div class="bigt flex items-start justify-between gap-10">
-           <div class="t flex md:flex-row xs:flex-col md:items-center xs:items-start xr:gap-4 xs:gap-2 justify-between md:w-full xs:w-auto">
-            <div class="l">
-              <img src="./img/logo.png" alt="" />
-            </div>
-            <div class="r flex md:flex-row xs:flex-col md:items-center xs:items-start gap-3">
-              <a href="#">Схема проезда</a>
-              <div class="flex md:flex-row xs:flex-col xs:items-start md:items-center  gap-1.5">
-                <a class=" font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]" href="tel:+79227288288"
-                  ><i class="fa-solid fa-phone"></i>+79227288288</a
-                > 
-                <a class=" font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]" href="tel:+73513790979"
-                  ><i class="fa-solid fa-phone"></i>+73513790979</a
+          <div class="bigt flex items-start justify-between gap-10">
+            <div
+              class="t flex md:flex-row xs:flex-col md:items-center xs:items-start xr:gap-4 xs:gap-2 justify-between md:w-full xs:w-auto"
+            >
+              <div class="l">
+                <img src="./img/logo.png" alt="" />
+              </div>
+              <div
+                class="r flex md:flex-row xs:flex-col md:items-center xs:items-start gap-3"
+              >
+                <a href="#">Схема проезда</a>
+                <div
+                  class="flex md:flex-row xs:flex-col xs:items-start md:items-center gap-1.5"
                 >
+                  <a
+                    class="font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]"
+                    href="tel:+79227288288"
+                    ><i class="fa-solid fa-phone"></i>+79227288288</a
+                  >
+                  <a
+                    class="font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]"
+                    href="tel:+73513790979"
+                    ><i class="fa-solid fa-phone"></i>+73513790979</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
-          <div class="r md:hidden xs:block  xr:w-[50%] xs:w-[70%] flex items-start justify-between gap-6">
+            <div
+              class="r md:hidden xs:block xr:w-[50%] xs:w-[70%] flex items-start justify-between gap-6"
+            >
               <div class="1">
-                <h4 class="font-semibold xr:text-lg xs:text-[12px] text-[#535050]">
+                <h4
+                  class="font-semibold xr:text-lg xs:text-[12px] text-[#535050]"
+                >
                   Режим работы:
                 </h4>
                 <p class="font-normal xr:text-lg xs:text-[12px] text-[#535050]">
@@ -449,10 +522,14 @@
                 </p>
               </div>
             </div>
-         </div>
+          </div>
 
-          <div class="b flex items-start justify-between lg:gap-20 sm:gap-10 sm:my-[50px] xs:my-[20px] xs:-translate-y-[20px] xr:translate-y-0">
-            <div class="l md:w-[60%] xs:w-[100%] xs:flex gap-10 xr:hidden    items-end justify-between">
+          <div
+            class="b flex items-start justify-between lg:gap-20 sm:gap-10 sm:my-[50px] xs:my-[20px] xs:-translate-y-[20px] xr:translate-y-0"
+          >
+            <div
+              class="l md:w-[60%] xs:w-[100%] xs:flex gap-10 xr:hidden items-end justify-between"
+            >
               <div class="1">
                 <p>
                   <a
@@ -490,7 +567,7 @@
                   >
                 </p>
 
-                               <p>
+                <p>
                   <a
                     class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
                     href="#"
@@ -521,7 +598,6 @@
               </div>
 
               <div class="2">
- 
                 <p>
                   <a
                     class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
@@ -537,7 +613,7 @@
                   >
                 </p>
 
-                       <p>
+                <p>
                   <a
                     class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
                     href="#"
@@ -580,11 +656,11 @@
                   </a>
                 </p>
               </div>
-
-              
             </div>
 
-            <div class="l md:w-[60%] xs:w-[100%] xe:flex xs:hidden gap-10    items-start justify-between">
+            <div
+              class="l md:w-[60%] xs:w-[100%] xe:flex xs:hidden gap-10 items-start justify-between"
+            >
               <div class="1">
                 <p>
                   <a
@@ -714,7 +790,9 @@
               </div>
             </div>
 
-            <div class="r w-[40%] md:flex xs:hidden items-start justify-between gap-6">
+            <div
+              class="r w-[40%] md:flex xs:hidden items-start justify-between gap-6"
+            >
               <div class="1">
                 <h4 class="font-semibold text-lg text-[#535050]">
                   Режим работы:
@@ -741,5 +819,7 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
