@@ -23,3 +23,21 @@
 
 
     AOS.init();
+
+
+    window.addEventListener("load", () => {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").classList.remove("hidden");
+    });
+
+
+    window.addEventListener("offline", () => {
+      document.getElementById("loader").style.display = "flex";
+      document.getElementById("content").classList.add("hidden");
+    });
+
+
+    window.addEventListener("online", () => {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").classList.remove("hidden");
+    });

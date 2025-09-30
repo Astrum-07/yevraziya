@@ -16,7 +16,7 @@
   <body class="">
     <!-- header start -->
     <header
-      class="py-[10px] sticky top-0 z-50 bg-white shadow-[1px_1px_5px_rgba(48,98,156)] "
+      class="py-[10px] sticky top-0 z-50 bg-white shadow-[1px_1px_5px_rgba(48,98,156)]"
     >
       <div class="mycontainer">
         <nav
@@ -110,16 +110,24 @@
             id="mobileMenu"
             class="max-h-0 overflow-hidden opacity-0 transition-all duration-500 ease-in-out md:hidden flex flex-col gap-4 absolute top-full left-0 w-full bg-white shadow-lg p-5 text-black z-50"
           >
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="./index.html"
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="./index.html"
               >Курорт</a
             >
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="./tyubing.html"
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="./tyubing.html"
               >Тюбинг</a
             >
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="./otel.html"
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="./otel.html"
               >Услуги и тарифы</a
             >
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="./bbq.html"
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="./bbq.html"
               >Афиша</a
             >
             <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
@@ -145,7 +153,7 @@
     <!-- header end-->
 
     <!-- showcase start -->
-    <section class="my-[30px] ">
+    <section class="my-[30px]">
       <div class="mycontainer">
         <div data-aos="fade-right">
           <div
@@ -250,11 +258,11 @@
     <!-- showcase end -->
 
     <!-- center start -->
-    <section class="my-[30px] ">
+    <section class="my-[30px]">
       <div class="mycontainer">
         <div data-aos="fade-right">
           <h2
-            class="font-black xe:text-[40px] xs:text-[15px]  text-[#0093dd] my-[30px]"
+            class="font-black xe:text-[40px] xs:text-[15px] text-[#0093dd] my-[30px]"
           >
             Центр активного отдыха "Евразия"
           </h2>
@@ -284,12 +292,12 @@
     <!-- center end -->
 
     <!-- aksiya start -->
-    <section class="sm:mb-[30px] ">
+    <section class="sm:mb-[30px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
           <div data-aos="fade-right">
             <h2
-              class="font-black xe:text-[40px] xs:text-[20px]  text-[#0093dd] my-[30px]"
+              class="font-black xe:text-[40px] xs:text-[20px] text-[#0093dd] my-[30px]"
             >
               Акции и спец предложения
             </h2>
@@ -316,8 +324,6 @@
                 >за 3 часа</span
               >
             </h1>
-
-           
 
             <button class="btn mt-[25%] w-full text-2xl">Заказать</button>
           </div>
@@ -408,7 +414,7 @@
     <!-- aksiya end -->
 
     <!-- afisha start -->
-    <section class="mb-[20px] ">
+    <section class="mb-[20px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
           <div data-aos="fade-right">
@@ -442,7 +448,7 @@
     <!-- afisha end -->
 
     <!-- news start -->
-    <section class="mb-[20px] ">
+    <section class="mb-[20px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
           <div data-aos="fade-up-right">
@@ -487,7 +493,7 @@
     <!-- news end -->
 
     <!-- icons start -->
-    <section class="my-[40px] ">
+    <section class="my-[40px]">
       <div class="mycontainer">
         <div class="icons flex justify-center gap-3">
           <div data-aos="fade-right">
@@ -871,6 +877,23 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <!-- loader -->
+    <div
+      id="loader"
+      class="fixed inset-0 bg-white flex items-center justify-center z-50"
+    >
+      <div
+        class="w-12 h-12 border-4 border-blue-500 border-dashed rounded-full animate-spin"
+      ></div>
+      <p class="ml-4 text-blue-600 font-medium">Загрузка...</p>
+    </div>
+
+    <div class="hidden" id="content">
+      <h1 class="text-3xl text-center mt-20">Sayt yuklandi</h1>
+      <p class="text-center mt-4">Endi kontent ishlayapti.</p>
+    </div>
+    <!-- loader -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
