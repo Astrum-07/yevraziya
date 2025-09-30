@@ -930,6 +930,11 @@
       margin-top: 31px;
     }
   }
+  .sm\:mb-\[30px\] {
+    @media (width >= 40rem) {
+      margin-bottom: 30px;
+    }
+  }
   .sm\:block {
     @media (width >= 40rem) {
       display: block;

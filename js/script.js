@@ -20,3 +20,9 @@
       icon.classList.add("fa-bars");
     }
   });
+
+   AOS.init({
+    duration: 500, 
+    once: true,   
+      offset: 0,   
+  });

@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header start -->
@@ -108,22 +110,34 @@
             id="mobileMenu"
             class="max-h-0 overflow-hidden opacity-0 transition-all duration-500 ease-in-out md:hidden flex flex-col gap-4 absolute top-full left-0 w-full bg-white shadow-lg p-5 text-black z-50"
           >
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Курорт</a>
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Проживание</a>
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Услуги и тарифы</a>
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Афиша</a>
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Для бизнеса</a>
-            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#">Купить онлайн</a>
-               <a
-                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
-                  href="tel:+79227288288"
-                  ><i class="fa-solid fa-phone"></i>+79227288288</a
-                >
-                <a
-                  class="hover:text-[rgba(48,98,156)] transition-[1s]"
-                  href="tel:+73513790979"
-                  ><i class="fa-solid fa-phone"></i>+73513790979</a
-                >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Курорт</a
+            >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Проживание</a
+            >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Услуги и тарифы</a
+            >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Афиша</a
+            >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Для бизнеса</a
+            >
+            <a class="hover:text-[rgba(48,98,156)] transition-[1s]" href="#"
+              >Купить онлайн</a
+            >
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="tel:+79227288288"
+              ><i class="fa-solid fa-phone"></i>+79227288288</a
+            >
+            <a
+              class="hover:text-[rgba(48,98,156)] transition-[1s]"
+              href="tel:+73513790979"
+              ><i class="fa-solid fa-phone"></i>+73513790979</a
+            >
           </div>
         </nav>
       </div>
@@ -133,99 +147,101 @@
     <!-- showcase start -->
     <section class="my-[30px]">
       <div class="mycontainer">
-        <div
-          class="p myflex justify-between gap-3 bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-cover bg-center bg-no-repeat xe:h-[400px] xs:h-300px rounded-[30px] px-[25px] py-[35px]"
-        >
-          <div class="l">
-            <h1
-              class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
-            >
-              30 декабря в ЦАО "Евразия" <br />
-              состоится тестовое <br />
-              открытие 2 склона.
-            </h1>
-            <p
-              class="font-normal md:text-2xl xe:text-xl xs:text-sm leading-[120%] text-white mt-[31px]"
-            >
-              К новогодним праздникам уже подготовлено <br />
-              5 больших склонов и учебная трасса, <br />
-              а также тюбинговая горка.
-            </p>
-          </div>
-
+        <div data-aos="fade-right">
           <div
-            class="r xe:w-[216px] xs:w-auto xe:h-[295px] xs:h-[250px] rounded-[15px] bg-[#fff] px-[20px] py-[10px] text-start xe:translate-x-0 xs:translate-x-10 shadow-[2px_4px_18px_0_rgba(0,0,0,0.13)]"
+            class="p myflex justify-between gap-3 bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-cover bg-center bg-no-repeat xe:h-[400px] xs:h-300px rounded-[30px] px-[25px] py-[35px]"
           >
-            <p
-              class="sm:flex xs:hidden font-light text-[10px] leading-[130%] items-center gap-1 text-[#645252]"
+            <div class="l">
+              <h1
+                class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+              >
+                30 декабря в ЦАО "Евразия" <br />
+                состоится тестовое <br />
+                открытие 2 склона.
+              </h1>
+              <p
+                class="font-normal md:text-2xl xe:text-xl xs:text-sm leading-[120%] text-white mt-[31px]"
+              >
+                К новогодним праздникам уже подготовлено <br />
+                5 больших склонов и учебная трасса, <br />
+                а также тюбинговая горка.
+              </p>
+            </div>
+
+            <div
+              class="r xe:w-[216px] xs:w-auto xe:h-[295px] xs:h-[250px] rounded-[15px] bg-[#fff] px-[20px] py-[10px] text-start xe:translate-x-0 xs:translate-x-10 shadow-[2px_4px_18px_0_rgba(0,0,0,0.13)]"
             >
-              <svg
-                width="12"
-                height="12"
-                viewBox="0 0 12 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.5 2.25L8.25 6L4.5 9.75"
-                  stroke="#52536D"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-              Свернуть
-            </p>
-            <div class="flex items-center gap-4 mt-[16px]">
-              <img src="./img/showcase_r_1.png" alt="" />
               <p
-                class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                class="sm:flex xs:hidden font-light text-[10px] leading-[130%] items-center gap-1 text-[#645252]"
               >
-                Веб-камеры
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.5 2.25L8.25 6L4.5 9.75"
+                    stroke="#52536D"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Свернуть
               </p>
-            </div>
+              <div class="flex items-center gap-4 mt-[16px]">
+                <img src="./img/showcase_r_1.png" alt="" />
+                <p
+                  class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                >
+                  Веб-камеры
+                </p>
+              </div>
 
-            <div class="flex items-center gap-4 mt-[16px]">
-              <img src="./img/showcase_r_2.png" alt="" />
-              <p
-                class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
-              >
-                Канатные дороги
-              </p>
-            </div>
+              <div class="flex items-center gap-4 mt-[16px]">
+                <img src="./img/showcase_r_2.png" alt="" />
+                <p
+                  class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                >
+                  Канатные дороги
+                </p>
+              </div>
 
-            <div class="flex items-center gap-4 mt-[16px]">
-              <img src="./img/showcase_r_3.png" alt="" />
-              <p
-                class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
-              >
-                Билеты
-              </p>
-            </div>
+              <div class="flex items-center gap-4 mt-[16px]">
+                <img src="./img/showcase_r_3.png" alt="" />
+                <p
+                  class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                >
+                  Билеты
+                </p>
+              </div>
 
-            <div class="flex items-center gap-4 mt-[16px]">
-              <img src="./img/showcase_r_4.png" alt="" />
+              <div class="flex items-center gap-4 mt-[16px]">
+                <img src="./img/showcase_r_4.png" alt="" />
+                <p
+                  class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                >
+                  Карта
+                </p>
+              </div>
               <p
-                class="xe:block xs:hidden font-medium text-sm leading-[130%] text-[#645252]"
+                class="md:block xs:hidden font-medium text-[8px] leading-[130%] text-[#645252] mt-[18px]"
               >
-                Карта
+                Сегодня, sunday 15 января
               </p>
-            </div>
-            <p
-              class="md:block xs:hidden font-medium text-[8px] leading-[130%] text-[#645252] mt-[18px]"
-            >
-              Сегодня, sunday 15 января
-            </p>
-            <hr
-              class="xe:block xs:hidden px-[-20px] my-[10px] text-[#d9d9d9]"
-            />
-            <div class="mt-2">
-              <img src="./img/showcase_r_5.png" alt="" />
-              <p
-                class="font-medium text-[10px] leading-[130%] text-[#645252] xe:ml-[8px] xs:ml-[5px]"
-              >
-                -10
-              </p>
+              <hr
+                class="xe:block xs:hidden px-[-20px] my-[10px] text-[#d9d9d9]"
+              />
+              <div class="mt-2">
+                <img src="./img/showcase_r_5.png" alt="" />
+                <p
+                  class="font-medium text-[10px] leading-[130%] text-[#645252] xe:ml-[8px] xs:ml-[5px]"
+                >
+                  -10
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -236,26 +252,30 @@
     <!-- center start -->
     <section class="my-[30px]">
       <div class="mycontainer">
-        <h2
-          class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
-        >
-          Центр активного отдыха "Евразия"
-        </h2>
-        <div
-          class="bg-[url(/img/centerbg.png)] w-full h-[300px] rounded-[30px] bg-no-repeat bg-cover xe:bg-right xs:bg-top relative"
-        >
-          <div
-            class="absolute bottom-0 left-0 sm:w-[60%] xs:w-[100%] bg-[#0080dd] text-white sm:p-12 xs:p-6 xs:pt-12 sm:h-full xs:h-[60%] rounded-l-[30px] xs:rounded-br-[30px] sm:rounded-br-[0px] sm:[clip-path:polygon(0_0,75%_0,100%_100%,0_100%)] xs:[clip-path:polygon(0_20%,100%_0,100%_100%,0_100%)]"
+        <div data-aos="fade-right">
+          <h2
+            class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
           >
-            <p
-              class="font-medium lg:text-[26px] sm:text-[20px] xs:text-[14px] leading-[130%] text-white"
+            Центр активного отдыха "Евразия"
+          </h2>
+        </div>
+        <div data-aos="fade-left">
+          <div
+            class="bg-[url(/img/centerbg.png)] w-full h-[300px] rounded-[30px] bg-no-repeat bg-cover xe:bg-right xs:bg-top relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 sm:w-[60%] xs:w-[100%] bg-[#0080dd] text-white sm:p-12 xs:p-6 xs:pt-12 sm:h-full xs:h-[60%] rounded-l-[30px] xs:rounded-br-[30px] sm:rounded-br-[0px] sm:[clip-path:polygon(0_0,75%_0,100%_100%,0_100%)] xs:[clip-path:polygon(0_20%,100%_0,100%_100%,0_100%)]"
             >
-              Мы рады приветствовать <br />
-              любителей активного отдыха <br />
-              в нашем экологическом парке — <br />
-              самом динамично развивающемся <br />
-              горнолыжном центре Южного Урала!
-            </p>
+              <p
+                class="font-medium lg:text-[26px] sm:text-[20px] xs:text-[14px] leading-[130%] text-white"
+              >
+                Мы рады приветствовать <br />
+                любителей активного отдыха <br />
+                в нашем экологическом парке — <br />
+                самом динамично развивающемся <br />
+                горнолыжном центре Южного Урала!
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -264,113 +284,131 @@
     <!-- center end -->
 
     <!-- aksiya start -->
-    <section class="mb-[30px]">
+    <section class="sm:mb-[30px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
-          <h2
-            class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
-          >
-            Акции и спец предложения
-          </h2>
+          <div data-aos="fade-right">
+            <h2
+              class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
+            >
+              Акции и спец предложения
+            </h2>
+          </div>
 
-          <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          <div data-aos="fade-left">
+            <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          </div>
         </div>
 
         <div class="b grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
-          <div
-            class="sm:hidden xs:flex flex-col items-start justify-between bg-[linear-gradient(to_bottom,rgba(90,108,106)_0%,rgba(0,0,139,0)_50%),url('/img/bus.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+       
+            <div
+              class="sm:hidden xs:flex flex-col items-start justify-between bg-[linear-gradient(to_bottom,rgba(90,108,106)_0%,rgba(0,0,139,0)_50%),url('/img/bus.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
             >
-              Евробус - экспресс челябинск-куса
-              <br /><br />
-              <span
-                class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white"
-                >за 3 часа</span
+              <h1
+                class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
               >
-            </h1>
+                Евробус - экспресс челябинск-куса
+                <br /><br />
+                <span
+                  class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white"
+                  >за 3 часа</span
+                >
+              </h1>
 
-            <p
-              class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white sm:mt-[31px] xs:mt-[20px]"
-            >
-              за 3 часа
-            </p>
-
-            <button class="btn mt-[25%] w-full">Заказать</button>
-          </div>
-
-          <div
-            class="sm:hidden xs:flex flex-col items-start justify-between bg-[linear-gradient(to_bottom,rgba(90,108,106)_0%,rgba(0,0,139,0)_50%),url('/img/ice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
-            >
-              Снежные будни <br />
-              <span class="text-[18px]"
-                >прокат снаряжения + кресельный подъёмник</span
+              <p
+                class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white sm:mt-[31px] xs:mt-[20px]"
               >
-            </h1>
+                за 3 часа
+              </p>
 
-            <p
-              class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[40px] text-white"
+              <button class="btn mt-[25%] w-full">Заказать</button>
+            </div>
+          
+
+         
+            <div
+              class="sm:hidden xs:flex flex-col items-start justify-between bg-[linear-gradient(to_bottom,rgba(90,108,106)_0%,rgba(0,0,139,0)_50%),url('/img/ice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
             >
-              с понедельника по пятницу
-              <br />
-              <span class="font-black xr:text-[42px] xs:text-[32px]">1400 </span
-              >руб <br />
-              <span class="font-black xr:text-[42px] xs:text-[32px]">4</span
-              >часа
-            </p>
+              <h1
+                class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+              >
+                Снежные будни <br />
+                <span class="text-[18px]"
+                  >прокат снаряжения + кресельный подъёмник</span
+                >
+              </h1>
 
-            <button class="btn w-full">Заказать</button>
+              <p
+                class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[40px] text-white"
+              >
+                с понедельника по пятницу
+                <br />
+                <span class="font-black xr:text-[42px] xs:text-[32px]"
+                  >1400 </span
+                >руб <br />
+                <span class="font-black xr:text-[42px] xs:text-[32px]">4</span
+                >часа
+              </p>
+
+              <button class="btn w-full">Заказать</button>
+            </div>
+           
+         
+
+          <div data-aos="flip-left">
+            <div
+              class="xs:hidden sm:block bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-center bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
+            >
+              <h1
+                class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+              >
+                30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
+              </h1>
+
+              <p
+                class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white sm:mt-[31px] xs:mt-[20px]"
+              >
+                К новогодним праздникам уже подготовлено 5 больших склонов и
+                учебная трасса, а также тюбинговая горка.
+              </p>
+            </div>
           </div>
 
-          <div
-            class="xs:hidden sm:block bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-center bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+          <div data-aos="flip-right">
+            <div
+              class="xs:hidden sm:block bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-center bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
             >
-              30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
-            </h1>
+              <h1
+                class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
+              >
+                30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
+              </h1>
 
-            <p
-              class="font-normal md:text-2xl xe:text-xl xs:text-[10px] leading-[120%] text-white sm:mt-[31px] xs:mt-[20px]"
-            >
-              К новогодним праздникам уже подготовлено 5 больших склонов и
-              учебная трасса, а также тюбинговая горка.
-            </p>
+              <p
+                class="font-normal md:text-2xl xe:text-xl xs:text-sm leading-[120%] text-white mt-[31px]"
+              >
+                К новогодним праздникам уже <br />
+                подготовлено 5 больших склонов и учебная <br />
+                трасса, а также тюбинговая горка.
+              </p>
+            </div>
           </div>
 
-          <div
-            class="xs:hidden sm:block bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-center bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-2xl xe:text-xl xs:text-sm leading-[120%] tracking-[-0.03em] text-white"
-            >
-              30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
-            </h1>
-
-            <p
-              class="font-normal md:text-2xl xe:text-xl xs:text-sm leading-[120%] text-white mt-[31px]"
-            >
-              К новогодним праздникам уже <br />
-              подготовлено 5 больших склонов и учебная <br />
-              трасса, а также тюбинговая горка.
-            </p>
+          <div data-aos="flip-up">
+            <div
+              class="xs:hidden sm:flex bg-[url('/img/novygod.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
+            ></div>
           </div>
 
-          <div
-            class="xs:hidden sm:flex bg-[url('/img/novygod.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
-          ></div>
-
-          <div
-            class="xs:hidden sm:flex bg-[linear-gradient(to_bottom,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/girls.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
-          >
-            <h2 class="font-black text-[40px] leading-[130%] text-white">
-              BBQ площадки
-            </h2>
+          <div data-aos="flip-down">
+            <div
+              class="xs:hidden sm:flex bg-[linear-gradient(to_bottom,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/girls.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[350px] rounded-[30px] p-7"
+            >
+              <h2 class="font-black text-[40px] leading-[130%] text-white">
+                BBQ площадки
+              </h2>
+            </div>
           </div>
         </div>
       </div>
@@ -381,23 +419,31 @@
     <section class="mb-[20px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
-          <h2
-            class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
-          >
-            Афиша
-          </h2>
+          <div data-aos="fade-right">
+            <h2
+              class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
+            >
+              Афиша
+            </h2>
+          </div>
 
-          <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          <div data-aos="fade-left">
+            <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          </div>
         </div>
 
         <div class="grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
-          <div
-            class="bg-[url('/img/kubok.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          ></div>
+          <div data-aos="zoom-in-up">
+            <div
+              class="bg-[url('/img/kubok.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
+            ></div>
+          </div>
 
-          <div
-            class="bg-[url('/img/chempionat.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          ></div>
+          <div data-aos="zoom-in">
+            <div
+              class="bg-[url('/img/chempionat.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
+            ></div>
+          </div>
         </div>
       </div>
     </section>
@@ -407,34 +453,41 @@
     <section class="mb-[20px]">
       <div class="mycontainer">
         <div class="t flex items-center gap-5 justify-between">
-          <h2
-            class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
-          >
-            Новости
-          </h2>
-
-          <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          <div data-aos="fade-up-right">
+            <h2
+              class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
+            >
+              Новости
+            </h2>
+          </div>
+          <div data-aos="fade-up-left">
+            <button class="btn md:flex xs:hidden">Посмотреть все</button>
+          </div>
         </div>
 
         <div class="grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
-          <div
-            class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/moreice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
+          <div data-aos="zoom-out-down">
+            <div
+              class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/moreice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
             >
-              Состоялось первенство России по сноуборду в дисциплине Big-Air
-            </h1>
+              <h1
+                class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
+              >
+                Состоялось первенство России по сноуборду в дисциплине Big-Air
+              </h1>
+            </div>
           </div>
 
-          <div
-            class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/ochki.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
-          >
-            <h1
-              class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
+          <div data-aos="zoom-out-down">
+            <div
+              class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/ochki.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
             >
-              Всероссийские соревнования по сноуборду в городе Куса
-            </h1>
+              <h1
+                class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
+              >
+                Всероссийские соревнования по сноуборду в городе Куса
+              </h1>
+            </div>
           </div>
         </div>
       </div>
@@ -445,21 +498,28 @@
     <section class="my-[40px]">
       <div class="mycontainer">
         <div class="icons flex justify-center gap-3">
-          <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px] hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
-          >
-            <a href="#"><img src="./img/vk_icon.png" alt="" /></a>
-          </button>
-          <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]  hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
-          >
-            <a href="#"><img src="./img/youtube_icon.png" alt="" /></a>
-          </button>
-          <button
-            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]  hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
-          >
-            <a href="#"><img src="./img/zen_icon.png" alt="" /></a>
-          </button>
+          <div data-aos="fade-right">
+            <button
+              class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px] hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
+            >
+              <a href="#"><img src="./img/vk_icon.png" alt="" /></a>
+            </button>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <button
+              class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px] hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
+            >
+              <a href="#"><img src="./img/youtube_icon.png" alt="" /></a>
+            </button>
+          </div>
+
+          <div data-aos="fade-left">
+            <button
+              class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px] hover:shadow-[4px_4px_10px_rgba(48,98,156)] transition duration-700"
+            >
+              <a href="#"><img src="./img/zen_icon.png" alt="" /></a>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -820,6 +880,7 @@
     </footer>
     <!-- footer end -->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
