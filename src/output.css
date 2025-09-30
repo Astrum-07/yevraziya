@@ -869,6 +869,13 @@
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
   }
+  .hover\:bg-\[\#0093dd\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #0093dd;
+      }
+    }
+  }
   .hover\:bg-gray-100 {
     &:hover {
       @media (hover: hover) {
@@ -887,6 +894,13 @@
     &:hover {
       @media (hover: hover) {
         color: rgba(48,98,156);
+      }
+    }
+  }
+  .hover\:text-white {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-white);
       }
     }
   }
