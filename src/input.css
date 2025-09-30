@@ -12,6 +12,7 @@
   --breakpoint-xs: 280px;
   --breakpoint-xr: 450px;
   --breakpoint-xe: 550px;
+  --breakpoint-xd: 900px;
   --breakpoint-lm: 1200px;
 }
 .title {

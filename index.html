@@ -13,7 +13,9 @@
   </head>
   <body>
     <!-- header start -->
-    <header class="py-[10px]">
+    <header
+      class="py-[10px] sticky top-0 z-50 bg-white shadow-[1px_1px_5px_rgba(48,98,156)]"
+    >
       <div class="mycontainer">
         <nav
           class="navbar myflex justify-between sm:items-start xs:items-center gap-10"
@@ -70,7 +72,7 @@
     <!-- header end-->
 
     <!-- showcase start -->
-    <section class="my-[10px]">
+    <section class="my-[30px]">
       <div class="mycontainer">
         <div
           class="p myflex justify-between gap-3 bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcasebg.png')] bg-cover bg-center bg-no-repeat xe:h-[400px] xs:h-300px rounded-[30px] px-[25px] py-[35px]"
@@ -329,27 +331,23 @@
           <button class="btn md:flex xs:hidden">Посмотреть все</button>
         </div>
 
-        <div class=" grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
+        <div class="grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
           <div
-            class=" bg-[url('/img/kubok.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          >
-            
-          </div>
+            class="bg-[url('/img/kubok.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
+          ></div>
 
-           <div
-            class=" bg-[url('/img/chempionat.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
-          >
-            
-          </div>
+          <div
+            class="bg-[url('/img/chempionat.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xr:h-[350px] xs:h-[310px] rounded-[30px] p-7"
+          ></div>
         </div>
       </div>
     </section>
     <!-- afisha end -->
 
     <!-- news start -->
-     <section class="mb-[20px]">
+    <section class="mb-[20px]">
       <div class="mycontainer">
-          <div class="t flex items-center gap-5 justify-between">
+        <div class="t flex items-center gap-5 justify-between">
           <h2
             class="font-black xe:text-[40px] xs:text-[25px] leading-[130%] tracking-[-0.04em] text-[#0093dd] my-[30px]"
           >
@@ -359,32 +357,389 @@
           <button class="btn md:flex xs:hidden">Посмотреть все</button>
         </div>
 
-        <div class=" grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
-              <div
-            class=" bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/moreice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
+        <div class="grid sm:grid-cols-2 xs:grid-cols-1 gap-[40px]">
+          <div
+            class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/moreice.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
           >
             <h1
-              class="font-bold md:text-[40px] xs:text-xl  leading-[120%] tracking-[-0.03em] text-white"
+              class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
             >
               Состоялось первенство России по сноуборду в дисциплине Big-Air
             </h1>
-
-         
           </div>
 
-              <div
-            class=" bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/ochki.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
+          <div
+            class="bg-[linear-gradient(to_bottom,rgba(128,148,156)_0%,rgba(0,0,139,0)_50%),url('/img/ochki.png')] bg-center bg-cover bg-no-repeat md:h-[380px] xs:h-[330px] rounded-[30px] p-7"
           >
             <h1
-              class="font-bold md:text-[40px] xs:text-xl  leading-[120%] tracking-[-0.03em] text-white"
+              class="font-bold md:text-[40px] xs:text-xl leading-[120%] tracking-[-0.03em] text-white"
             >
-            Всероссийские соревнования по сноуборду в городе Куса
+              Всероссийские соревнования по сноуборду в городе Куса
             </h1>
-
-         
           </div>
         </div>
       </div>
-     </section>
+    </section>
+    <!-- news end -->
+
+    <!-- icons start -->
+    <section class="my-[40px]">
+      <div class="mycontainer">
+        <div class="icons flex justify-center gap-3">
+          <button
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+          >
+            <a href="#"><img src="./img/vk_icon.png" alt="" /></a>
+          </button>
+          <button
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+          >
+            <a href="#"><img src="./img/youtube_icon.png" alt="" /></a>
+          </button>
+          <button
+            class="bg-[#0093dd] rounded-[100%] p-4 xr:w-[69px] xr:h-[69px] xs:w-[59px] xs:h-[59px]"
+          >
+            <a href="#"><img src="./img/zen_icon.png" alt="" /></a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- icons end -->
+
+    <!-- footer start -->
+    <footer class="bg-[#d9d9d9]">
+      <div class="mycontainer">
+        <div class="p py-[20px]">
+         <div class="bigt flex items-start justify-between gap-10">
+           <div class="t flex md:flex-row xs:flex-col md:items-center xs:items-start xr:gap-4 xs:gap-2 justify-between md:w-full xs:w-auto">
+            <div class="l">
+              <img src="./img/logo.png" alt="" />
+            </div>
+            <div class="r flex md:flex-row xs:flex-col md:items-center xs:items-start gap-3">
+              <a href="#">Схема проезда</a>
+              <div class="flex md:flex-row xs:flex-col xs:items-start md:items-center  gap-1.5">
+                <a class=" font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]" href="tel:+79227288288"
+                  ><i class="fa-solid fa-phone"></i>+79227288288</a
+                > 
+                <a class=" font-normal xr:text-lg xs:text-[14px] leading-[187%] text-[#535050]" href="tel:+73513790979"
+                  ><i class="fa-solid fa-phone"></i>+73513790979</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="r md:hidden xs:block  xr:w-[50%] xs:w-[70%] flex items-start justify-between gap-6">
+              <div class="1">
+                <h4 class="font-semibold xr:text-lg xs:text-[12px] text-[#535050]">
+                  Режим работы:
+                </h4>
+                <p class="font-normal xr:text-lg xs:text-[12px] text-[#535050]">
+                  Пн-пт: 10.00-21.00
+                </p>
+                <p class="font-normal xr:text-lg xs:text-[12px] text-[#535050]">
+                  Сб-вс 9.00-21.00
+                </p>
+              </div>
+
+              <div class="1 w-[100%]">
+                <h4 class="font-semibold text-lg text-[#535050]">Контакты</h4>
+                <p class="font-normal xr:text-xs xs:text-[8px] text-[#535050]">
+                  Всесезонный центр спорта и отдыха - находится в рекреационной
+                  зоне на границе с заповедниками «Таганай» и «Зюраткуль» всего
+                  в 30 минутах езды от Златоуста, и в 1,5 часах от Челябинска.
+                </p>
+              </div>
+            </div>
+         </div>
+
+          <div class="b flex items-start justify-between lg:gap-20 sm:gap-10 sm:my-[50px] xs:my-[20px] xs:-translate-y-[20px] xr:translate-y-0">
+            <div class="l md:w-[60%] xs:w-[100%] xs:flex gap-10 xr:hidden    items-end justify-between">
+              <div class="1">
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Услуги</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Трассы</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Кафе</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Гостиница</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >О комплексе</a
+                  >
+                </p>
+
+                               <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Новости</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Тарифы</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Прокат</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[13px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Акции и туры</a
+                  >
+                </p>
+              </div>
+
+              <div class="2">
+ 
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Цены на услуги
+                  </a>
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Схема проезда</a
+                  >
+                </p>
+
+                       <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Туры</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Проживание</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Забронировать номер</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Детям</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Акции
+                  </a>
+                </p>
+                <p>
+                  <a
+                    class="font-normal xr:text-lg xs:text-[12px] text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Веб-камеры
+                  </a>
+                </p>
+              </div>
+
+              
+            </div>
+
+            <div class="l md:w-[60%] xs:w-[100%] xe:flex xs:hidden gap-10    items-start justify-between">
+              <div class="1">
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Услуги</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Трассы</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Кафе</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Гостиница</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >О комплексе</a
+                  >
+                </p>
+              </div>
+
+              <div class="2">
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Новости</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Тарифы</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Прокат</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Акции и туры</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Цены на услуги
+                  </a>
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Схема проезда</a
+                  >
+                </p>
+              </div>
+
+              <div class="3">
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Туры</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Проживание</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Забронировать номер</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Детям</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Акции
+                  </a>
+                </p>
+                <p>
+                  <a
+                    class="font-normal text-lg text-black hover:text-[rgba(48,98,156)] transition-[1s]"
+                    href="#"
+                    >Веб-камеры
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="r w-[40%] md:flex xs:hidden items-start justify-between gap-6">
+              <div class="1">
+                <h4 class="font-semibold text-lg text-[#535050]">
+                  Режим работы:
+                </h4>
+                <p class="font-normal text-lg text-[#535050]">
+                  Пн-пт: 10.00-21.00
+                </p>
+                <p class="font-normal text-lg text-[#535050]">
+                  Сб-вс 9.00-21.00
+                </p>
+              </div>
+
+              <div class="1 w-[40%]">
+                <h4 class="font-semibold text-lg text-[#535050]">Контакты</h4>
+                <p class="font-normal text-xs text-[#535050]">
+                  Всесезонный центр спорта и отдыха - находится в рекреационной
+                  зоне на границе с заповедниками «Таганай» и «Зюраткуль» всего
+                  в 30 минутах езды от Златоуста, и в 1,5 часах от Челябинска.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>
